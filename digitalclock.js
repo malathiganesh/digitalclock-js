@@ -3,7 +3,7 @@
     let h = time.getHours();
     let m = time.getMinutes();
     let s = time.getSeconds();
-    let d = time.getDay();
+    let d = time.getDate();
     let mn = time.getMonth()+1;
     let y = time.getFullYear();
     h=checkTime(h);
